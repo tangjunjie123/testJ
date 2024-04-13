@@ -9,12 +9,10 @@ func main() {
 	engine := gin.Default()
 	engine.GET("/", hello)
 	engine.Run(":7777")
-	//
-	//
-	//123
 }
 
 // Handler
 func hello(c *gin.Context) {
 	c.JSON(http.StatusOK, "Hello, World!")
+	//
 }
