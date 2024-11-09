@@ -14,5 +14,5 @@ func main() {
 
 // Handler
 func hello(c *gin.Context) {
-	c.JSON(http.StatusOK, "Success!!!")
+	c.JSON(http.StatusOK, "成功!!!")
 }
